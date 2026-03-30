@@ -100,7 +100,13 @@
       <div class="container">
         <div class="quote-layout">
         <div class="quote-form-wrap" style="max-width:none;margin:0;">
-          <form id="quote-form" novalidate aria-label="Quote request form">
+          <form id="quote-form" action="https://api.web3forms.com/submit" method="POST" novalidate aria-label="Quote request form">
+            <input type="hidden" name="access_key" value="81e867b5-a9b0-4e9d-820d-da819ab8ac48">
+            <input type="hidden" name="to" value="atlasupholstering@outlook.com">
+            <input type="hidden" name="subject" value="New Quote Request — Atlas Upholstering">
+            <input type="hidden" name="from_name" value="Atlas Upholstering Website">
+            <input type="hidden" name="redirect" value="https://www.atlasupholstering.com/thankyou">
+            <input type="checkbox" name="botcheck" style="display:none;">
             <div class="form-grid">
 
               <div class="form-group">

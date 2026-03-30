@@ -86,17 +86,60 @@ document.addEventListener('DOMContentLoaded', function () {
     revealEls.forEach(function (el) { el.classList.add('reveal'); io.observe(el); });
   }
 
-  /* ---- Quote form submission feedback ---- */
+  /* ---- Quote form submission ---- */
   var form = document.getElementById('quote-form');
   if (form) {
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var btn = form.querySelector('button[type="submit"]');
-      btn.textContent = '✓ Request Sent!';
+      var originalText = btn.textContent;
+      btn.textContent = 'Sending...';
       btn.disabled = true;
-      btn.style.background = '#3a7d44';
-      btn.style.borderColor = '#3a7d44';
-      btn.style.color = '#fff';
+
+      var data = new FormData(form);
+
+      fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: data
+      })
+      .then(function(res) { return res.json(); })
+      .then(function(json) {
+        if (json.success) {
+          // Show success message
+          btn.textContent = 'Request Sent!';
+          btn.style.background = '#2D5A3D';
+          // Show confirmation banner
+          var banner = document.createElement('div');
+          banner.style.cssText = 'background:#2D5A3D;color:#fff;padding:1rem 1.5rem;border-radius:8px;margin-top:1rem;text-align:center;font-size:1rem;';
+          banner.textContent = 'Thank you! We\'ve received your quote request and will be in touch within 24 hours.';
+          form.appendChild(banner);
+          // Reset form after 3 seconds
+          setTimeout(function() {
+            form.reset();
+            btn.textContent = originalText;
+            btn.disabled = false;
+            btn.style.background = '';
+            if (banner.parentNode) banner.parentNode.removeChild(banner);
+          }, 5000);
+        } else {
+          btn.textContent = 'Error — Please Try Again';
+          btn.disabled = false;
+          btn.style.background = '#c0392b';
+          setTimeout(function() {
+            btn.textContent = originalText;
+            btn.style.background = '';
+          }, 3000);
+        }
+      })
+      .catch(function() {
+        btn.textContent = 'Error — Please Try Again';
+        btn.disabled = false;
+        btn.style.background = '#c0392b';
+        setTimeout(function() {
+          btn.textContent = originalText;
+          btn.style.background = '';
+        }, 3000);
+      });
     });
   }
 });
