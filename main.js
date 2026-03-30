@@ -89,31 +89,28 @@ document.addEventListener('DOMContentLoaded', function () {
   /* ---- Quote form submission ---- */
   var form = document.getElementById('quote-form');
   if (form) {
-    form.addEventListener('submit', function (e) {
+    form.addEventListener('submit', function(e) {
       e.preventDefault();
-      var btn = form.querySelector('button[type="submit"]');
+      var btn = form.querySelector('button[type=submit]');
       var originalText = btn.textContent;
       btn.textContent = 'Sending...';
       btn.disabled = true;
 
-      var data = new FormData(form);
+      var formData = new FormData(form);
 
-      fetch('https://api.web3forms.com/submit', {
+      fetch('/api/submit', {
         method: 'POST',
-        body: data
+        body: formData,
       })
-      .then(function(res) { return res.json(); })
+      .then(function(r) { return r.json(); })
       .then(function(json) {
         if (json.success) {
-          // Show success message
           btn.textContent = 'Request Sent!';
           btn.style.background = '#2D5A3D';
-          // Show confirmation banner
           var banner = document.createElement('div');
           banner.style.cssText = 'background:#2D5A3D;color:#fff;padding:1rem 1.5rem;border-radius:8px;margin-top:1rem;text-align:center;font-size:1rem;';
-          banner.textContent = 'Thank you! We\'ve received your quote request and will be in touch within 24 hours.';
+          banner.textContent = 'Thank you! We\u2019ve received your request and will be in touch within 24 hours.';
           form.appendChild(banner);
-          // Reset form after 3 seconds
           setTimeout(function() {
             form.reset();
             btn.textContent = originalText;
@@ -122,23 +119,17 @@ document.addEventListener('DOMContentLoaded', function () {
             if (banner.parentNode) banner.parentNode.removeChild(banner);
           }, 5000);
         } else {
-          btn.textContent = 'Error — Please Try Again';
+          btn.textContent = 'Error \u2014 Please Try Again';
           btn.disabled = false;
           btn.style.background = '#c0392b';
-          setTimeout(function() {
-            btn.textContent = originalText;
-            btn.style.background = '';
-          }, 3000);
+          setTimeout(function() { btn.textContent = originalText; btn.style.background = ''; }, 3000);
         }
       })
       .catch(function() {
-        btn.textContent = 'Error — Please Try Again';
+        btn.textContent = 'Error \u2014 Please Try Again';
         btn.disabled = false;
         btn.style.background = '#c0392b';
-        setTimeout(function() {
-          btn.textContent = originalText;
-          btn.style.background = '';
-        }, 3000);
+        setTimeout(function() { btn.textContent = originalText; btn.style.background = ''; }, 3000);
       });
     });
   }
