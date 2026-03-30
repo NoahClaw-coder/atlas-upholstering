@@ -1026,3 +1026,78 @@ input[type="file"] { display: none; }
   .trust-badges { flex-direction: column; align-items: center; }
   .stat-row { gap: 1.5rem; }
 }
+
+/* --- Real photo overrides for service/about placeholder divs --- */
+.service-detail-img img,
+.about-story-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+/* --- Work Gallery --- */
+.work-gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+.work-gallery-item {
+  aspect-ratio: 4/3;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.work-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.45s ease;
+}
+.work-gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+/* --- Quote page two-column layout --- */
+.quote-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 4rem;
+  align-items: start;
+}
+.quote-img-panel {
+  position: sticky;
+  top: 120px;
+}
+.quote-img-panel img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 3/4;
+  display: block;
+}
+
+/* --- About secondary showroom image --- */
+.about-img-secondary {
+  margin-top: 2.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  max-height: 340px;
+}
+.about-img-secondary img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .quote-layout { grid-template-columns: 1fr; }
+  .quote-img-panel { display: none; }
+  .work-gallery-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .work-gallery-grid { grid-template-columns: 1fr; }
+}
