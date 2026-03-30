@@ -3,7 +3,7 @@
    ============================================================ */
 
 /* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 /* --- CSS Variables --- */
 :root {
@@ -27,7 +27,7 @@
   --mid-gray: #6B6B6B;
   --light-gray: #D8E4DC;
   --white: #FFFFFF;
-  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-serif: 'Inter', system-ui, -apple-system, sans-serif;
   --font-sans: 'Inter', system-ui, sans-serif;
   --radius: 4px;
   --shadow: 0 4px 24px rgba(26,58,42,0.10);
@@ -305,7 +305,9 @@ p:last-child { margin-bottom: 0; }
 .hero h1 {
   color: var(--white);
   margin-bottom: 1.25rem;
-  font-style: italic;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 .hero h1 em { font-style: normal; color: var(--color-gold); }
 .hero-subtitle {
