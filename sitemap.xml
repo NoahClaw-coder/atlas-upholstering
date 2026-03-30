@@ -2,11 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- Core pages -->
   <url>
     <loc>https://www.atlasupholstering.com/index.html</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/index.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/index.html"/>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -15,7 +16,7 @@
     <loc>https://www.atlasupholstering.com/services.html</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/services.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/services.html"/>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -24,7 +25,7 @@
     <loc>https://www.atlasupholstering.com/about.html</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/about.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/about.html"/>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -33,7 +34,7 @@
     <loc>https://www.atlasupholstering.com/quote.html</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/quote.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/quote.html"/>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -42,7 +43,16 @@
     <loc>https://www.atlasupholstering.com/faq.html</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/faq.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/faq.html"/>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/before-after.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/before-after.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/before-after.html"/>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -51,9 +61,110 @@
     <loc>https://www.atlasupholstering.com/blog-upholstery-guide-montreal.html</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/blog-upholstery-guide-montreal.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/blog-upholstery-guide-montreal.html"/>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2026-03-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/blog-upholstery-cost-montreal.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/blog-upholstery-cost-montreal.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/blog-upholstery-cost-montreal.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service-specific pages -->
+  <url>
+    <loc>https://www.atlasupholstering.com/banquettes.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/banquettes.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/banquettes.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/headboards.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/headboards.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/headboards.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/dining-chairs.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/dining-chairs.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/dining-chairs.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/outdoor-cushions.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/outdoor-cushions.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/outdoor-cushions.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Location pages -->
+  <url>
+    <loc>https://www.atlasupholstering.com/ndg.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/ndg.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/ndg.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/westmount.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/westmount.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/westmount.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/cote-des-neiges.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/cote-des-neiges.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/cote-des-neiges.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/cote-saint-luc.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/cote-saint-luc.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/cote-saint-luc.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/laval.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/laval.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/laval.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atlasupholstering.com/south-shore.html</loc>
+    <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/south-shore.html"/>
+    <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/south-shore.html"/>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
