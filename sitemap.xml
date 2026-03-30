@@ -4,7 +4,7 @@
 
   <!-- Core pages -->
   <url>
-    <loc>https://www.atlasupholstering.com/index.html</loc>
+    <loc>https://www.atlasupholstering.com/</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/index.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/index.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -13,7 +13,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/services.html</loc>
+    <loc>https://www.atlasupholstering.com/services</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/services.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/services.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -22,7 +22,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/about.html</loc>
+    <loc>https://www.atlasupholstering.com/about</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/about.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/about.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -31,7 +31,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/quote.html</loc>
+    <loc>https://www.atlasupholstering.com/quote</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/quote.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/quote.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -40,7 +40,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/faq.html</loc>
+    <loc>https://www.atlasupholstering.com/faq</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/faq.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/faq.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -49,7 +49,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/before-after.html</loc>
+    <loc>https://www.atlasupholstering.com/before-after</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/before-after.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/before-after.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -58,7 +58,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/blog-upholstery-guide-montreal.html</loc>
+    <loc>https://www.atlasupholstering.com/blog-upholstery-guide-montreal</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/blog-upholstery-guide-montreal.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/blog-upholstery-guide-montreal.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -67,7 +67,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/blog-upholstery-cost-montreal.html</loc>
+    <loc>https://www.atlasupholstering.com/blog-upholstery-cost-montreal</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/blog-upholstery-cost-montreal.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/blog-upholstery-cost-montreal.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -77,7 +77,7 @@
 
   <!-- Service-specific pages -->
   <url>
-    <loc>https://www.atlasupholstering.com/banquettes.html</loc>
+    <loc>https://www.atlasupholstering.com/banquettes</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/banquettes.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/banquettes.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -86,7 +86,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/headboards.html</loc>
+    <loc>https://www.atlasupholstering.com/headboards</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/headboards.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/headboards.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -95,7 +95,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/dining-chairs.html</loc>
+    <loc>https://www.atlasupholstering.com/dining-chairs</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/dining-chairs.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/dining-chairs.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -104,7 +104,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/outdoor-cushions.html</loc>
+    <loc>https://www.atlasupholstering.com/outdoor-cushions</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/outdoor-cushions.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/outdoor-cushions.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -114,7 +114,7 @@
 
   <!-- Location pages -->
   <url>
-    <loc>https://www.atlasupholstering.com/ndg.html</loc>
+    <loc>https://www.atlasupholstering.com/ndg</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/ndg.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/ndg.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -123,7 +123,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/westmount.html</loc>
+    <loc>https://www.atlasupholstering.com/westmount</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/westmount.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/westmount.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -132,7 +132,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/cote-des-neiges.html</loc>
+    <loc>https://www.atlasupholstering.com/cote-des-neiges</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/cote-des-neiges.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/cote-des-neiges.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -141,7 +141,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/cote-saint-luc.html</loc>
+    <loc>https://www.atlasupholstering.com/cote-saint-luc</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/cote-saint-luc.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/cote-saint-luc.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -150,7 +150,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/laval.html</loc>
+    <loc>https://www.atlasupholstering.com/laval</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/laval.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/laval.html"/>
     <lastmod>2026-03-30</lastmod>
@@ -159,7 +159,7 @@
   </url>
 
   <url>
-    <loc>https://www.atlasupholstering.com/south-shore.html</loc>
+    <loc>https://www.atlasupholstering.com/south-shore</loc>
     <xhtml:link rel="alternate" hreflang="en-CA" href="https://www.atlasupholstering.com/south-shore.html"/>
     <xhtml:link rel="alternate" hreflang="fr-CA" href="https://www.atlasupholstering.com/south-shore.html"/>
     <lastmod>2026-03-30</lastmod>

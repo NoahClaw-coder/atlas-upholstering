@@ -1,0 +1,25 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/index.html", "destination": "/", "permanent": true },
+    { "source": "/services.html", "destination": "/services", "permanent": true },
+    { "source": "/about.html", "destination": "/about", "permanent": true },
+    { "source": "/quote.html", "destination": "/quote", "permanent": true },
+    { "source": "/faq.html", "destination": "/faq", "permanent": true },
+    { "source": "/pricing.html", "destination": "/pricing", "permanent": true },
+    { "source": "/banquettes.html", "destination": "/banquettes", "permanent": true },
+    { "source": "/headboards.html", "destination": "/headboards", "permanent": true },
+    { "source": "/dining-chairs.html", "destination": "/dining-chairs", "permanent": true },
+    { "source": "/outdoor-cushions.html", "destination": "/outdoor-cushions", "permanent": true },
+    { "source": "/before-after.html", "destination": "/before-after", "permanent": true },
+    { "source": "/ndg.html", "destination": "/ndg", "permanent": true },
+    { "source": "/westmount.html", "destination": "/westmount", "permanent": true },
+    { "source": "/cote-des-neiges.html", "destination": "/cote-des-neiges", "permanent": true },
+    { "source": "/cote-saint-luc.html", "destination": "/cote-saint-luc", "permanent": true },
+    { "source": "/laval.html", "destination": "/laval", "permanent": true },
+    { "source": "/south-shore.html", "destination": "/south-shore", "permanent": true },
+    { "source": "/blog-upholstery-guide-montreal.html", "destination": "/blog-upholstery-guide-montreal", "permanent": true },
+    { "source": "/blog-upholstery-cost-montreal.html", "destination": "/blog-upholstery-cost-montreal", "permanent": true }
+  ]
+}
