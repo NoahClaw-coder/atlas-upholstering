@@ -1,4 +1,4 @@
-import nodemailer from "nodemailer";
+import { Resend } from "resend";
 import { IncomingForm } from "formidable";
 import fs from "fs";
 
@@ -8,18 +8,7 @@ export const config = {
   },
 };
 
-const transporter = nodemailer.createTransport({
-  host: "smtp-mail.outlook.com",
-  port: 587,
-  secure: false,
-  auth: {
-    user: "atlasupholstering@outlook.com",
-    pass: process.env.SMTP_PASS,
-  },
-  tls: {
-    ciphers: "SSLv3",
-  },
-});
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default async function handler(req, res) {
   if (req.method !== "POST") {
@@ -71,9 +60,9 @@ Submitted from: atlasupholstering.com
         }
       }
 
-      await transporter.sendMail({
-        from: '"Atlas Upholstering Website" <atlasupholstering@outlook.com>',
-        to: "atlasupholstering@outlook.com",
+      await resend.emails.send({
+        from: "Atlas Upholstering Website <quotes@atlasupholstering.com>",
+        to: ["atlasupholstering@outlook.com"],
         replyTo: f("email"),
         subject: `New Quote Request from ${f("first_name")} ${f("last_name")}`,
         text: body,
